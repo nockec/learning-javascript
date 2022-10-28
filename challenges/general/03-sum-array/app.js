@@ -24,3 +24,13 @@ export {};
 const output = document.getElementById("output-container");
 
 // your code will start here.
+
+let Numbers = [10,10];
+
+const initialValue = 0;
+const sumWithInitial = Numbers.reduce(
+	(previousValue, currentValue) => previousValue + currentValue,
+	initialValue
+  );
+  
+console.log(sumWithInitial);
