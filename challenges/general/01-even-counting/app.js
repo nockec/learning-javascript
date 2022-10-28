@@ -20,3 +20,6 @@ const output = document.getElementById("output-container");
 
 // your code will start here.
 
+for(let n = 0;n<=100;n+=2){
+    output.append(n);
+};
