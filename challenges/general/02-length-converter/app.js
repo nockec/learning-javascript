@@ -20,11 +20,9 @@ CHALLENGE: Create a length converter function
 //@ts-check
 export {};
 /** @type {HTMLPreElement} */ //@ts-ignore
-const output = document.getElementById("output-container");
+const output = document.getElementById("output-container"); 
 
 // your code will start here.
 
 for(let input = 1;//this is the input for the number you want to convert 
 	 input/1.609;){
-    console.log(input);
-};
